@@ -64,5 +64,136 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-hortosapp-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://hortosapp.com/
+HortOS is the open trade directory and live availability market for nursery stock in Australia (au.hortosapp.com), the United States (us.hortosapp.com), New Zealand (nz.hortosapp.com), Canada (ca.hortosapp.com) and the United Kingdom (uk.hortosapp.com): growers, wholesale nurseries and trade yards, with the plants, sizes and trade prices they publish, and the HortOS Plant Price Index, the monthly statistical picture of what the trade charges.
+
+**Areas:** Agriculture · Horticulture · Marketplace · Wholesale · PlantData
+
+## hortosapp-com on APIs.io
+
+Everything profiled for hortosapp-com is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/hortosapp-com/](https://apis.io/providers/hortosapp-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [hortosapp-com Quote API](https://apis.io/apis/hortosapp-com/hortosapp-com-quote-api/) — The Quote API from hortosapp-com — 1 operation(s) for quote.
+- [hortosapp-com Search API](https://apis.io/apis/hortosapp-com/hortosapp-com-search-api/) — The Search API from hortosapp-com — 1 operation(s) for search.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Hortosapp Com Agentic Access](https://apis.io/agentic-access/hortosapp-com/hortosapp-com-agentic-access/)
+
+#### JSON Schema (2)
+
+The data models the API reads and writes.
+
+- [Quote](https://apis.io/schemas/hortosapp-com/hortosapp-com-quote/)
+- [SearchResult](https://apis.io/schemas/hortosapp-com/hortosapp-com-search-result/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Hortosapp Com Context](https://apis.io/jsonld/hortosapp-com/hortosapp-com-context/)
+
+#### Overlays (1)
+
+OpenAPI overlays, including conversational phrasing for each operation.
+
+- [Hortosapp Com Openapi Overlay](https://apis.io/overlays/hortosapp-com/hortosapp-com-openapi-overlay/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [hortosapp-com API Rules](https://apis.io/rules/hortosapp-com/hortosapp-com-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Hortosapp Com Authentication](https://apis.io/security/hortosapp-com/hortosapp-com-authentication/)
+- [Hortosapp Com Domain Security](https://apis.io/security/hortosapp-com/hortosapp-com-domain-security/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Hortosapp Com Scopes](https://apis.io/scopes/hortosapp-com/hortosapp-com-scopes/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Hortosapp Com Rate Limits](https://apis.io/rate-limits/hortosapp-com/hortosapp-com-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://hortosapp.com/)
+- [Documentation](https://hortosapp.com/llms.txt)
+- [Getting started](https://hortosapp.com/search?q=plant)
+- [API reference](https://hortosapp.com/api/v1/openapi.json)
+- [Support](https://hortosapp.com/for-growers)
+- [Terms of service](https://hortosapp.com/terms)
+- [Privacy policy](https://hortosapp.com/privacy)
+
+## API Evangelist rating
+
+**Kin Score 45.9** — developing · rubric 0.25.0 · scored 2026-10-29
+
+| Facet | Score |
+|---|---|
+| Discoverability | 65.0 |
+| Contract quality | 56.3 |
+| Contract governance | 70.9 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 39.8 |
+| Access clarity | 34.2 |
+
+**Agent readiness 36.3** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | verified |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | paginated |
+| Operation Distinctiveness | na |
+
+**Regulatory alignment 28.4** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/hortosapp-com/](https://apis.io/providers/hortosapp-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for hortosapp-com: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/hortosapp-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
